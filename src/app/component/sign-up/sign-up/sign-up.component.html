@@ -1,0 +1,40 @@
+<div class="form-box">
+  <h3>Create your free account</h3>
+    <form>
+      <input type="username"   name="username" [(ngModel)]="username" placeholder="Username" required><br>
+
+        <input type="email"   name="email" [(ngModel)]="email" placeholder="Email Address" required><br>
+
+        <input type="tel"  name="number" [(ngModel)]="number" placeholder="Phone Number" required><br>
+
+        <select>
+          <option>Currency</option>
+          <option>US Dollar</option>
+          <option>British Pounds Sterling</option>
+        </select>
+        <br>
+        
+        
+        <input type="password"    name="password" [(ngModel)]="password" placeholder="Password" required><br>
+
+        <input type="password"    name="password" [(ngModel)]="passwordTwo" placeholder="Comfirm Password" required><br>
+
+        
+
+
+                             
+                            
+        <button type="submit" class="btn btn-info" (click)="signup()">Register</button><br>
+    
+              <a href="/login"> Already have an account? <span> login</span></a><br>
+      
+  </form>
+                        
+    
+
+
+
+
+
+
+</div>

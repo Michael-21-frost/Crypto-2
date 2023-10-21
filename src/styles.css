@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    
+}
+body{
+    background-color: white;
+}
+
+html{
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+
+}
+.container{
+    text-align: center;
+    background-image: url('./assets/images/bitcoin-main.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+}
+.action-center{
+    background-size: 100%;
+
+
+}
+.google-icon{
+    background-image: url('./assets/images/google_logo1600.png');
+        width: 30px;
+        height: 50px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .profile-image{
+        background-image: url('./assets/images/user.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .top-up{
+        background-image:url('./assets/images/add.png');
+        height: 8vh;
+        width: 10vw;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .transfer{
+        background-image:url('./assets/images/transfer.png');
+        height: 5vh;
+        width: 10vw;
+        margin-left: 37%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+  
+    .support{
+        background-image:url('./assets/images/help.png');
+        height: 5vh;
+        width: 10vw;
+        margin-left: 35%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+}
+.back{
+    height: 6.6vh;
+    width: 20vw;
+    background-image: url('./assets/images/prev.png');
+    background-color: black;
+    background-position: center;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    margin-left: -5%;
+}
+.method{
+    background-image: url('./assets/images/payment-method-png-payment-methods.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 12vh;
+    width: 100vw;
+}

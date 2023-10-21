@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('icomoon.eot');
+  src: url('icomoon.eot') format('embedded-opentype'), url('icomoon.ttf') format('truetype'), url('icomoon.woff') format('woff'), url('icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('opensans-light-webfont.eot');
+  src: url('opensans-light-webfont.eot#iefix') format('embedded-opentype'), url('opensans-light-webfont.ttf') format('truetype'), url('opensans-light-webfont.woff') format('woff'), url('opensans-light-webfont.svg#Open Sans') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('opensans-regular-webfont.eot');
+  src: url('opensans-regular-webfont.eot#iefix') format('embedded-opentype'), url('opensans-regular-webfont.ttf') format('truetype'), url('opensans-regular-webfont.woff') format('woff'), url('opensans-regular-webfont.svg#Open Sans') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'pricon';
+  src: url(../fonts/pr_icon.eot);
+  src: url(../fonts/pr_icon.eot#iefix) format('embedded-opentype'), url(../fonts/pr_icon.ttf) format('truetype'), url(../fonts/pr_icon.woff) format('woff'), url('../fonts/pr_icon.svg#Open Sans') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('https://www.gemoo-resource.com/fonts/poppins-regular.eot');
+	src: url('https://www.gemoo-resource.com/fonts/poppins-regular.eot#iefix') format('embedded-opentype'), url('https://www.gemoo-resource.com/fonts/poppins-regular.ttf') format('truetype'), url('https://www.gemoo-resource.com/fonts/poppins-regular.woff') format('woff'), url('https://www.gemoo-resource.com/fonts/poppins-regular.svg#Poppins') format('svg');
+	font-style: normal;
+	font-display: swap
+}

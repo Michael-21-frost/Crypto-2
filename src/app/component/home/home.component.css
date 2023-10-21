@@ -1,0 +1,116 @@
+/* Default styles for all screen sizes */
+
+.app {
+    margin-top: 5%;
+  }
+  
+  .container {
+    height: 50vh;
+    width: 100%;
+    background-color: whitesmoke;
+  }
+  
+  section {
+    height: 10vh;
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  section h2 {
+    font-size: 38px;
+    color: hsl(40, 72%, 23%);
+  }
+  
+  span {
+    text-transform: capitalize;
+    font-family: verdana;
+    color: grey;
+  }
+  
+  p {
+    text-transform: capitalize;
+    font-family: verdana;
+    color: hsl(40, 72%, 23%);
+  }
+  
+  .button-section {
+    text-align: center;
+    margin-top: 60px;
+    width: 100vw;
+    height: 10vh;
+  }
+  
+  button {
+    margin: 10px;
+    border: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 19px;
+    font-family: tahoma;
+    background-color: rgb(161, 157, 157);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .reg{
+    width: 40%;
+    
+  }
+  
+  button:active {
+    opacity: 0.7;
+  }
+  
+  .logged {
+    width: 40%;
+    background-color: hsl(40, 72%, 23%)!important;
+  }
+  
+  
+  /* Responsive styles */
+  
+  /* Smaller screens */
+  @media (max-width: 600px) {
+    .app {
+      margin-top: 10%;
+    }
+  
+    section h2 {
+      font-size: 28px;
+    }
+  
+    button {
+      font-size: 16px;
+      width: 30vw;
+      height: 8vh;
+    }
+  }
+  
+  /* Medium-sized screens */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .app {
+      margin-top: 8%;
+    }
+  
+    .container {
+      height: 70vh;
+    }
+  
+    section h2 {
+      font-size: 32px;
+    }
+    button{
+        width: 10vw;
+
+    }
+  }
+  
+  /* Larger screens */
+  @media (min-width: 1025px) {
+    .app {
+      margin-top: 5%;
+    }
+    section h2 {
+      font-size: 40px;
+    }
+  }
+  

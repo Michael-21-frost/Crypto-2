@@ -1,0 +1,203 @@
+  /*global styles*/
+  .cover{
+    background-color:black;
+    height:100vh ;
+    text-align: center;
+} 
+.cover h3{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 37%;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: capitalize;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+form{
+    text-align: center;
+    transform: translateY(50%);
+}
+.email{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+}
+.password{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+}
+input{
+    margin: 10px;
+    width: 30%;
+    height: 7vh;
+    outline: none;
+    background-color: transparent;
+    opacity: 0.9;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.555);
+    background-color: rgba(128, 128, 128, 0.733);
+}
+button{
+    background-color: orangered;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    width:30.5%;
+    height: 8vh;
+    cursor: pointer;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin: 10px;
+  
+   
+}
+.google{
+    height: 8vh;
+    width:30.5%;
+    line-height: 2.5;
+    background-color: white;
+    margin-top: 2%;
+    display: -webkit-inline-flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+.google:active{
+    opacity: 0.7;
+}
+  
+.google p{
+    margin-left: 3%;
+    color: grey;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 3.2 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    color: white;
+    font-size: 19px;
+}
+
+a{
+    text-decoration: none;
+    color:orangered;
+    font-size: 19px;
+}
+a:active{
+    color: white;
+    opacity: 0.8;
+}
+button:disabled{
+    opacity: 0.4;
+    
+    }
+    
+    button:active{
+       opacity: 0.6;
+    }
+  /* Responsive styles */
+  
+  /* Smaller screens */
+  @media (max-width: 600px){
+ .cover h3{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 15%;
+ }
+  
+form{
+    text-align: center;
+    transform: translateY(50%);
+}
+.email{
+    float: left;
+    margin-left: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+}
+.password{
+    float: left;
+    margin-left: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+}
+input{
+    margin: 10px;
+    width: 91%;
+    height: 7vh;
+    outline: none;
+    background-color: transparent;
+    opacity: 0.9;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.555);
+    background-color: rgba(128, 128, 128, 0.733);
+}
+button{
+    background-color: orangered;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    width: 93%;
+    height: 8vh;
+    cursor: pointer;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin: 10px;
+    border-radius: 3px;
+    
+  
+   
+}
+.google{
+    height: 8vh;
+    width:93%;
+    line-height: 2.5;
+    background-color: white;
+    margin-top: 2%;
+    display: -webkit-inline-flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: capitalize;
+
+}
+.google:active{
+    opacity: 0.7;
+}
+  
+.google p{
+    margin-left: 3%;
+    color: grey;
+    font-size: 17px;
+    line-height: 3.2 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+  }
+
+
+
+

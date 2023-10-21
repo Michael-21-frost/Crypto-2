@@ -1,0 +1,15 @@
+nav{
+    background-color: black;
+    height: 7vh;
+    width: 100%;
+}
+.back{
+    cursor: pointer;
+}
+.back:active{
+    opacity: 0.2;
+}
+section{
+    background-color: rgba(0, 0, 0, 0.781);
+    height: 93vh;
+}

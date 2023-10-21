@@ -1,0 +1,180 @@
+section{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    justify-content: center;
+   align-items: center;
+}
+.action-center{
+    background-color: hsl(40, 74%, 63%);
+    width: 100%;
+    height: 42vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.user{
+    height: 8vh;
+    width: 80%;
+    margin: 15px;
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    padding: 5px;
+}
+.profile-image{
+    height: 6vh;
+    width: 14%;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.966);
+    border: 1px solid whitesmoke;
+}
+.profile-name{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 19px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bitcoin-balance{
+    height: 5vh;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.13);
+    position: absolute;
+    margin-top: 22%;
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 2.5;
+}
+
+
+.bitcoin-balance p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-weight: 500 !important;
+    margin-left: -5%;
+  
+    
+}
+.bitcoin-balance h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 16px;
+margin-top: -0.5%;
+color: white;
+}
+
+.asset{
+    display: flex;
+    margin-top: 34%;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    height: 5vh;
+    width: 90%;
+    line-height: 2.5;
+    margin-left: 5%;
+    background-color: rgba(0, 0, 0, 0.13);
+
+}
+
+.asset p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-weight: 500 !important;
+    margin-left: -7%;
+  
+    
+}
+.asset h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 16px;
+color: white;
+margin-top: -0.2%;
+color: green;
+}
+.box{
+    height: 12vh;
+    width: 95%;
+    padding: 2px;
+    background-color: hsl(228, 9%, 10%);
+    margin: 6px;
+    margin-top: 1.5%;
+    cursor: pointer;
+    position: static;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.box:active{
+    opacity: 0.1;
+    
+}
+.action-bar{
+    width: 90%;
+    margin-left: 4%;
+    position: absolute;
+    margin-top: 35.7%;
+    display: flex;
+    height: 30vh;
+    background-color: transparent;
+
+}
+button{
+    width: 100%;
+    margin: 0px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.13);
+    height: 10vh;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-1{
+    margin-top: 12%;
+    width: 50%;
+    position: absolute;
+}
+.btn-2{
+    margin-top: 12%;
+    margin-left: 53%;
+    width: 50%;
+    position: absolute;
+}
+button:active{
+    opacity: 0.6;
+}
+
+
+ul li{
+    font-size: 10px;
+    margin-left: 0%;
+}
+p{
+    font-size: 12px;
+    font-weight: 900;
+    
+}
+h3{
+    margin-left: 15% !important;
+    margin-top: 3%;
+}
+.p{
+    margin-left: 15%;
+}
